@@ -2,18 +2,18 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    OWNER_ID = "6624008600"
-    sudo_users = "6624008600", "5208708688"
-    GROUP_ID = -1002093059683
-    TOKEN = "7535881054:AAFheRPYsLoXvG6RhH9fd9bkousj4JLdo9E"
+    OWNER_ID = "5934011554"
+    sudo_users = "5934011554", "7142432455", "6438889828"
+    GROUP_ID = -1002090005496
+    TOKEN = "7148259690:AAFQ_ItaRVHPJ1iW_S92OkJr-7M0VTfqxi0"
     mongo_url = "mongodb+srv://insanekaneki7:w86O8Q2f7pGEdWYR@cluster0.fxcecdz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-    PHOTO_URL = ["https://graph.org/file/de583389881d34e4b51e5.jpg", "https://graph.org/file/3eb21ef48c323d0b3f0c5.jpg"]
+    PHOTO_URL = ["https://graph.org/file/c8793f5a74801abd370fd.jpg", "https://graph.org/file/09f2c059d8bc0a7d95fb8.jpg"]
     SUPPORT_CHAT = "insanesociety"
-    UPDATE_CHAT = "insaneupdate"
-    BOT_USERNAME = "insane_catcher_bot"
-    CHARA_CHANNEL_ID = "1002068358722"
-    api_id = 24341346
-    api_hash = "2e0526c7dbae85722313845219600c56"
+    UPDATE_CHAT = "honey_networks"
+    BOT_USERNAME = "Collect_yourwaifu_bot"
+    CHARA_CHANNEL_ID = "1002136697049"
+    api_id = 29044160
+    api_hash = "b93797389eab3cec8c697ae4f2418466"
 
     
 class Production(Config):
