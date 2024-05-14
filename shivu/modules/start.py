@@ -36,17 +36,20 @@ async def start(update: Update, context: CallbackContext) -> None:
         caption = f"""
         ***𝗛𝗘𝗬𝗬...𝗕𝗔𝗕𝗬🥀👀😎***
 
-***𝗜 𝗮𝗺 𝗮𝗻...
-⛩️gabfu 𝗖𝗔𝗧𝗖𝗛𝗘𝗥 𝗕𝗢𝗧⛩️
-𝗔𝗱𝗱 𝗠𝗲 𝗶𝗻 𝗬𝗼𝘂𝗿 𝗴𝗿𝗼𝘂𝗽 𝗔𝗻𝗱 𝗜 𝘄𝗶𝗹𝗹 𝘀𝗲𝗻𝗱 𝗥𝗮𝗻𝗱𝗼𝗺 𝗖𝗵𝗮𝗿𝗮𝗰𝘁𝗲𝗿𝘀𝗔𝗳𝘁𝗲𝗿.. 𝗲𝘃𝗲𝗿𝘆 𝟮𝟱 𝗺𝗲𝘀𝘀𝗮𝗴𝗲𝘀 𝗶𝗻 𝗚𝗿𝗼𝘂𝗽... 𝗨𝘀𝗲 /guess 𝘁𝗼.. 𝗖𝗼𝗹𝗹𝗲𝗰𝘁 𝘁𝗵𝗮𝘁 𝗖𝗵𝗮𝗿𝗮𝗰𝘁𝗲𝗿𝘀 𝗶𝗻 𝗬𝗼𝘂𝗿 𝗖𝗼𝗹𝗹𝗲𝗰𝘁𝗶𝗼𝗻.. 𝗮𝗻𝗱 𝘀𝗲𝗲 𝗖𝗼𝗹𝗹𝗲𝗰𝘁𝗶𝗼𝗻 𝗯𝘆 𝘂𝘀𝗶𝗻𝗴 /harem... 𝗦𝗼 𝗮𝗱𝗱 𝗶𝗻 𝗬𝗼𝘂𝗿 𝗴𝗿𝗼𝘂𝗽𝘀 𝗮𝗻𝗱 𝗖𝗼𝗹𝗹𝗲𝗰𝘁 𝗬𝗼𝘂𝗿 𝗵𝗮𝗿𝗲𝗺***
+***◎ ─━──━─❖─━──━─ ◎
+⍟ ɪ ᴀᴍ ᴄᴀᴛᴄʜ ʏᴏᴜʀ ᴡᴀɪғᴜ ʙᴏᴛ,
+ɪ sᴘᴀᴡɴ ᴀɴɪᴍᴇ ᴄʜᴀʀᴀᴄᴛᴇʀs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs, ᴀɴᴅ ʟᴇᴛ ᴜsᴇʀs ᴄᴏʟʟᴇᴄᴛ ᴛʜᴇᴍ.
+⍟ sᴏ ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ ᴡᴀɪᴛɪɴɢ ғᴏʀ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ʙʏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ.
+◎ ─━──━─❖─━──━─ ◎
+
+ʜɪᴛ help ᴛᴏ ғɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ.***
         """
         
         keyboard = [
             [InlineKeyboardButton("😎𝙆𝙄𝘿𝙉𝘼𝙋 𝙈𝙀😎", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
             [InlineKeyboardButton("⛩️𝙎𝙐𝙋𝙋𝙊𝙍𝙏⛩️", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("🎁𝙐𝙋𝘿𝘼𝙏𝙀🎁", url=f'https://t.me/{UPDATE_CHAT}')],
+            InlineKeyboardButton("⍟ᴜᴘᴅᴀᴛᴇs⍟", url=f'https://t.me/{UPDATE_CHAT}')],
             [InlineKeyboardButton("⚡𝘼𝘽𝙄𝙇𝙄𝙏𝙄𝙀𝙎⚡", callback_data='help')],
-            [InlineKeyboardButton("🥀𝙊𝙒𝙉𝙀𝙍🥀", url=f'https://t.me/abtkaneki')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         photo_url = random.choice(PHOTO_URL)
@@ -58,9 +61,8 @@ async def start(update: Update, context: CallbackContext) -> None:
         keyboard = [
             [InlineKeyboardButton("😎𝙆𝙄𝘿𝙉𝘼𝙋 𝙈𝙀😎", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
             [InlineKeyboardButton("⛩️𝙎𝙐𝙋𝙋𝙊𝙍𝙏⛩️", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("🎁𝙐𝙋𝘿𝘼𝙏𝙀🎁", url=f'https://t.me/{UPDATE_CHAT}')],
+            InlineKeyboardButton("⍟ᴜᴘᴅᴀᴛᴇs⍟", url=f'https://t.me/{UPDATE_CHAT}')],
             [InlineKeyboardButton("⚡𝘼𝘽𝙄𝙇𝙄𝙏𝙄𝙀𝙎⚡", callback_data='help')],
-            [InlineKeyboardButton("🥀𝙊𝙒𝙉𝙀𝙍🥀", url=f'https://t.me/abtkaneki')]
         ]
         
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -94,18 +96,21 @@ async def button(update: Update, context: CallbackContext) -> None:
         caption = f"""
         ***𝗛𝗘𝗬𝗬...𝗕𝗔𝗕𝗬🥀👀😎*** ✨
 
-***𝗜 𝗮𝗺 𝗮𝗻...
-⛩️𝗜𝗡𝗦𝗔𝗡𝗘 𝗖𝗔𝗧𝗖𝗛𝗘𝗥 𝗕𝗢𝗧⛩️
-𝗔𝗱𝗱 𝗠𝗲 𝗶𝗻 𝗬𝗼𝘂𝗿 𝗴𝗿𝗼𝘂𝗽 𝗔𝗻𝗱 𝗜 𝘄𝗶𝗹𝗹 𝘀𝗲𝗻𝗱 𝗥𝗮𝗻𝗱𝗼𝗺 𝗖𝗵𝗮𝗿𝗮𝗰𝘁𝗲𝗿𝘀𝗔𝗳𝘁𝗲𝗿.. 𝗲𝘃𝗲𝗿𝘆 𝟮𝟱 𝗺𝗲𝘀𝘀𝗮𝗴𝗲𝘀 𝗶𝗻 𝗚𝗿𝗼𝘂𝗽... 𝗨𝘀𝗲 /guess 𝘁𝗼.. 𝗖𝗼𝗹𝗹𝗲𝗰𝘁 𝘁𝗵𝗮𝘁 𝗖𝗵𝗮𝗿𝗮𝗰𝘁𝗲𝗿𝘀 𝗶𝗻 𝗬𝗼𝘂𝗿 𝗖𝗼𝗹𝗹𝗲𝗰𝘁𝗶𝗼𝗻.. 𝗮𝗻𝗱 𝘀𝗲𝗲 𝗖𝗼𝗹𝗹𝗲𝗰𝘁𝗶𝗼𝗻 𝗯𝘆 𝘂𝘀𝗶𝗻𝗴 /harem... 𝗦𝗼 𝗮𝗱𝗱 𝗶𝗻 𝗬𝗼𝘂𝗿 𝗴𝗿𝗼𝘂𝗽𝘀 𝗮𝗻𝗱 𝗖𝗼𝗹𝗹𝗲𝗰𝘁 𝗬𝗼𝘂𝗿 𝗵𝗮𝗿𝗲𝗺***
+***◎ ─━──━─❖─━──━─ ◎
+⍟ ɪ ᴀᴍ ᴄᴀᴛᴄʜ ʏᴏᴜʀ ᴡᴀɪғᴜ ʙᴏᴛ,
+ɪ sᴘᴀᴡɴ ᴀɴɪᴍᴇ ᴄʜᴀʀᴀᴄᴛᴇʀs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs, ᴀɴᴅ ʟᴇᴛ ᴜsᴇʀs ᴄᴏʟʟᴇᴄᴛ ᴛʜᴇᴍ.
+⍟ sᴏ ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ ᴡᴀɪᴛɪɴɢ ғᴏʀ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ʙʏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ.
+◎ ─━──━─❖─━──━─ ◎
+
+ʜɪᴛ help ᴛᴏ ғɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ.***
         """
 
         
         keyboard = [
             [InlineKeyboardButton("😎𝙆𝙄𝘿𝙉𝘼𝙋 𝙈𝙀😎", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
             [InlineKeyboardButton("⛩️𝙎𝙐𝙋𝙋𝙊𝙍𝙏⛩️", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("🎁𝙐𝙋𝘿𝘼𝙏𝙀🎁", url=f'https://t.me/{UPDATE_CHAT}')],
+            InlineKeyboardButton("⍟ᴜᴘᴅᴀᴛᴇs⍟", url=f'https://t.me/{UPDATE_CHAT}')],
             [InlineKeyboardButton("⚡𝘼𝘽𝙄𝙇𝙄𝙏𝙄𝙀𝙎⚡", callback_data='help')],
-            [InlineKeyboardButton("🥀𝙊𝙒𝙉𝙀𝙍 🥀", url=f'https://t.me/abtkaneki')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
 
