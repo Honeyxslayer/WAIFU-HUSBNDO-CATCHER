@@ -34,7 +34,7 @@ async def start(update: Update, context: CallbackContext) -> None:
         
         
         caption = f"""
-        ***𝗛𝗘𝗬𝗬...𝗕𝗔𝗕𝗬🥀👀😎***
+        ***ʜᴇʏ...ʙᴀʙʏ🀄***
 
 ***◎ ─━──━─❖─━──━─ ◎
 ⍟ ɪ ᴀᴍ ᴄᴀᴛᴄʜ ʏᴏᴜʀ ᴡᴀɪғᴜ ʙᴏᴛ,
@@ -46,10 +46,10 @@ async def start(update: Update, context: CallbackContext) -> None:
         """
         
         keyboard = [
-            [InlineKeyboardButton("😎𝙆𝙄𝘿𝙉𝘼𝙋 𝙈𝙀😎", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("⛩️𝙎𝙐𝙋𝙋𝙊𝙍𝙏⛩️", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("⍟ᴜᴘᴅᴀᴛᴇs⍟", url=f'https://t.me/{UPDATE_CHAT}')],
-            [InlineKeyboardButton("⚡𝘼𝘽𝙄𝙇𝙄𝙏𝙄𝙀𝙎⚡", callback_data='help')],
+            [InlineKeyboardButton("✦ ᴀᴅᴅ ᴍᴇ ✦", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
+            [InlineKeyboardButton("⌬ sᴜᴘᴘᴏʀᴛ ⌬", url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton("⍟ ᴜᴘᴅᴀᴛᴇs ⍟", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("▣ ʜᴇʟᴘ ▣", callback_data='help')],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         photo_url = random.choice(PHOTO_URL)
@@ -59,10 +59,10 @@ async def start(update: Update, context: CallbackContext) -> None:
     else:
         photo_url = random.choice(PHOTO_URL)
         keyboard = [
-            [InlineKeyboardButton("😎𝙆𝙄𝘿𝙉𝘼𝙋 𝙈𝙀😎", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("⛩️𝙎𝙐𝙋𝙋𝙊𝙍𝙏⛩️", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("⍟ᴜᴘᴅᴀᴛᴇs⍟", url=f'https://t.me/{UPDATE_CHAT}')],
-            [InlineKeyboardButton("⚡𝘼𝘽𝙄𝙇𝙄𝙏𝙄𝙀𝙎⚡", callback_data='help')],
+            [InlineKeyboardButton("✦ ᴀᴅᴅ ᴍᴇ ✦", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
+            [InlineKeyboardButton("⌬ sᴜᴘᴘᴏʀᴛ ⌬", url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton("⍟ ᴜᴘᴅᴀᴛᴇs ⍟", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("▣ ʜᴇʟᴘ ▣", callback_data='help')],
         ]
         
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -94,7 +94,7 @@ async def button(update: Update, context: CallbackContext) -> None:
     elif query.data == 'back':
 
         caption = f"""
-        ***𝗛𝗘𝗬𝗬...𝗕𝗔𝗕𝗬🥀👀😎*** ✨
+        ***ʜᴇʏ...ʙᴀʙʏ🀄***
 
 ***◎ ─━──━─❖─━──━─ ◎
 ⍟ ɪ ᴀᴍ ᴄᴀᴛᴄʜ ʏᴏᴜʀ ᴡᴀɪғᴜ ʙᴏᴛ,
@@ -107,10 +107,10 @@ async def button(update: Update, context: CallbackContext) -> None:
 
         
         keyboard = [
-            [InlineKeyboardButton("😎𝙆𝙄𝘿𝙉𝘼𝙋 𝙈𝙀😎", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("⛩️𝙎𝙐𝙋𝙋𝙊𝙍𝙏⛩️", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("⍟ᴜᴘᴅᴀᴛᴇs⍟", url=f'https://t.me/{UPDATE_CHAT}')],
-            [InlineKeyboardButton("⚡𝘼𝘽𝙄𝙇𝙄𝙏𝙄𝙀𝙎⚡", callback_data='help')],
+            [InlineKeyboardButton("✦ ᴀᴅᴅ ᴍᴇ ✦", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
+            [InlineKeyboardButton("⌬ sᴜᴘᴘᴏʀᴛ ⌬", url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton("⍟ ᴜᴘᴅᴀᴛᴇs ⍟", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("▣ ʜᴇʟᴘ ▣", callback_data='help')],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
 
