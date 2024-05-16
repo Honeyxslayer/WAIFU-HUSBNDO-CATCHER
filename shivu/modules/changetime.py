@@ -26,7 +26,7 @@ async def change_time(client: Client, message: Message):
             return
 
         new_frequency = int(args[1])
-        if new_frequency < 25:
+        if new_frequency < 10:
             await message.reply_text('ᴛʜᴇ ᴍᴇssᴀɢᴇ ғʀᴇǫᴜᴇɴᴄʏ ᴍᴜsᴛ ʙᴇ ɢʀᴇᴀᴛᴇʀ ᴛʜᴀɴ ᴏʀ ᴇǫᴜᴀʟ ᴛᴏ 100.')
             return
 
