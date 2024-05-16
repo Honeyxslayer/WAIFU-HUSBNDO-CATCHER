@@ -74,17 +74,20 @@ async def button(update: Update, context: CallbackContext) -> None:
 
     if query.data == 'help':
         help_text = """
-    ***Help Section:***
     
-***/guess: To Guess character (only works in group)***
-***/fav: Add Your fav***
-***/trade : To trade Characters***
-***/gift: Give any Character from Your Collection to another user.. (only works in groups)***
-***/collection: To see Your Collection***
-***/topgroups : See Top Groups.. Ppl Guesses Most in that Groups***
-***/top: Too See Top Users***
-***/ctop : Your ChatTop***
-***/changetime: Change Character appear time (only works in Groups)***
+***➲ ʙᴇʟᴏᴡ ᴀʀᴇ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ ᴜsᴇʀs:***
+
+***━━━━━━━ ᴄᴏᴍᴍᴀɴᴅs ━━━━━━━***
+***⎆/collect: ᴛᴏ ᴄᴏʟʟᴇᴄᴛ ᴛʜᴇ ᴄʜᴀʀᴀᴛᴇʀ***
+***⎆/fav: ᴀᴅᴅ ᴛᴏ ғᴀᴠᴏʀᴏɪᴛᴇ***
+***⎆/trade: ᴛᴏ ᴛʀᴀᴅᴇ ᴄʜᴀʀᴀᴄᴛᴇʀs***
+***⎆/gift: ᴛᴏ ɢɪғᴛ ᴀ ʜᴜsʙᴀɴᴅᴏ***
+***⎆/collection: ᴛᴏ sᴇ ʏᴏᴜʀ ᴄᴏʟʟᴇᴄᴛɪᴏɴ***
+***⎆/topgroups: ᴛᴏ sᴇᴇ ᴛᴏᴘ ɢʀᴏᴜᴘs***
+***⎆/top: ᴛᴏ sᴇ ᴛᴏᴘ ᴜsᴇʀs***
+***⎆/ctop: ʏᴏᴜʀ ᴄʜᴀᴛ ᴛᴏᴘ***
+***⎆/changetime: ᴛᴏ ᴄʜᴀɴɢᴇ ᴡᴀɪғᴜ sᴘᴀᴡɴ ᴛɪᴍᴇ***
+***━━━━━━━ ᴄᴏᴍᴍᴀɴᴅs ━━━━━━━***
    """
         help_keyboard = [[InlineKeyboardButton("⤾ Bᴀᴄᴋ", callback_data='back')]]
         reply_markup = InlineKeyboardMarkup(help_keyboard)
